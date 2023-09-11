@@ -1,6 +1,5 @@
 (function() {
   'use strict';
-
   var root = typeof window === 'object' ? window : {};
   var NODE_JS = !root.JS_SHA1_NO_NODE_JS && typeof process === 'object' && process.versions && process.versions.node;
   if (NODE_JS) {
